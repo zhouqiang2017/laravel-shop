@@ -127,6 +127,8 @@ return [
 
     'faker_locale' => 'zh_CN',
 
+    'locale' => 'zh-CN',
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
