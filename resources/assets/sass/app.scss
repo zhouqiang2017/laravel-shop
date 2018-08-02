@@ -1,15 +1,12 @@
-
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
 @import "variables";
-
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 // 通用样式
 body {
-  font-family: Hiragino Sans GB, "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial,sans-serif;
+  font-family: Hiragino Sans GB, "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial, sans-serif;
 }
 
 /* 顶部导航 */
@@ -25,8 +22,9 @@ body {
 /* 底部样式 */
 html {
   position: relative;
-  min-height: 100% ;
+  min-height: 100%;
 }
+
 body {
   margin-bottom: 60px;
 }
@@ -34,7 +32,7 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100% ;
+  width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #000;
@@ -57,6 +55,11 @@ body {
 .products-index-page {
   .pagination {
     margin-right: 5px;
+  }
+  .search-form {
+    padding: 0 20px 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
   }
   .products-list {
     padding: 0 15px;
@@ -102,7 +105,7 @@ body {
             color: #38b;
             font-weight: bold;
           }
-          &>div {
+          & > div {
             &:first-child {
               border-right: 1px solid #eee;
             }
