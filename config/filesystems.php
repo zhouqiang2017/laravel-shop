@@ -59,7 +59,7 @@ return [
             'driver' => 'local',
             'root' => storage_path('app/admin'),
             'url' => env('APP_URL').'/storage',
-            'visibility' => 'admin',
+            'visibility' => 'public',
         ],
 
         's3' => [
